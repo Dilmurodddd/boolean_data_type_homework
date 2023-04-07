@@ -7,4 +7,7 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    import math
+    a = math.sqrt(a)
+    return (a/1)==(a//1)
+print(main(10))
